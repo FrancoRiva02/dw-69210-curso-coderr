@@ -74,13 +74,13 @@ html{
     gap: 1rem;
     cursor: pointer;
 }
-.container-user .fa-user-tie{
+.container-user .bi-person-bounding-box{
     font-size: 3rem;
     color: #1A1A1D;
     padding-right: 2.5rem;
     border-right: 1px solid #e2e2e2;
 }
-.container-user .fa-cart-arrow-down{
+.container-user .bi-cart-plus{
     font-size: 3rem;
     color: #1A1A1D;
     padding-left: 1rem;

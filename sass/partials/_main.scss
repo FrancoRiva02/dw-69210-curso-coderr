@@ -1,13 +1,14 @@
 .main-content{
     background-color:#1A1A1D ;
-}
-    //caracteristicas 
-   .container-features{
+
+    /*Caracteristicas*/
+.container-features{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 3rem;
     padding: 3rem 0;
-    .card-feature{
+}
+.card-feature{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -35,18 +36,14 @@ color:white;
 color:white;
 font-weight: 500;
 }
-}
-
-
-//categorias
-
+/* categorias*/
 .top-categories{
     display: flex;
     flex-direction: column;
     gap: 2rem;
     margin-bottom: 3rem;   
-
-    .container-categories{
+}
+.container-categories{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 3rem;
@@ -102,18 +99,14 @@ transform:translate(-50%, 50%) ;
 .card-category span:hover{
     color:#A64D79;
 }
-}
-
-
-//top products
-
+/*top productos*/
 .top-products{
     display: flex;
     flex-direction: column;
     gap: 2rem;
     margin-bottom: 3rem;
-
-    .container-opcions{
+}
+.container-opcions{
     display: flex;
     justify-content: center;
     gap: 2rem;
@@ -136,18 +129,13 @@ color:black;
 background-color:#A64D79;
 color:black;
 }
-}
-
-
-
-//productos
-
+/*productos*/
 .container-products{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
     gap: 3rem;
-
-    .card-product{
+}
+.card-product{
     background-color: white;
     padding: 2rem 3rem;
     border-radius: .5rem;
@@ -268,19 +256,15 @@ right: -1rem;
     color: #A64D79;
     margin-left: .5rem;
 }
-}
-
-
-//galeria
-
+/*gallery*/
 .gallery{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 30rem);
     gap: 1.5rem;
     margin-bottom: 3rem;
-
-    .gallery img{
+}
+.gallery img{
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -290,13 +274,11 @@ right: -1rem;
     grid-row: 1/3;
 }
 
-}
-
- //especiales
-
- .specials{
+/*especiales*/
+.specials{
     display: flex;
     flex-direction: column;
     gap: 2rem;
     border-bottom: 3rem solid #1A1A1D;
+}
 }

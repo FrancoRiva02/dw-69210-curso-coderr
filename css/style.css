@@ -207,11 +207,20 @@ padding: 1rem 3rem;
 text-transform: uppercase;
 border-radius: 3rem;
 }
+.content-banner a:hover{
+    color: black;
+    transform: scale(1.3);
+    z-index: 2;
+    font-weight: 4rem;
+}
+
 
 /*main content*/
 .main-content{
     background-color:#1A1A1D ;
 }
+
+
 /*Caracteristicas*/
 .container-features{
     display: grid;
@@ -293,6 +302,9 @@ background-repeat: no-repeat;
     text-transform: capitalize;
     position: relative;
 }
+.container-categories a{
+    text-decoration: none;
+}
 .card-category p::after{
 content:'';
 width: 2.5rem;
@@ -342,19 +354,30 @@ color:black;
 background-color:#A64D79;
 color:black;
 }
+.nose{
+    color: #1A1A1D;
+}
 
 /*productos*/
+.heading-1{
+    text-decoration: underline;
+    color: #e2e2e2;
+}
 .container-products{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
     gap: 3rem;
 }
+
 .card-product{
     background-color: white;
     padding: 2rem 3rem;
     border-radius: .5rem;
     cursor: pointer;
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+}
+.card-product:hover{
+    box-shadow: 10px 10px 10px #6A1E55;
 }
 .container-img{
     position: relative;
@@ -470,6 +493,7 @@ right: -1rem;
     color: #A64D79;
     margin-left: .5rem;
 }
+
 
 /*gallery*/
 .gallery{
@@ -647,6 +671,319 @@ right: -1rem;
     font-weight: 400;
     font-size: 1.5rem;
 }
+/*pagina servicios*/
+
+.servicios{
+    background-color: #1A1A1D;
+}
+.titulo-servicios{
+    text-align: center;
+    color: #e2e2e2;
+    text-decoration: underline;
+    font-size: 7rem;
+}
+.slider-box{
+    width: 1280px;
+    height: auto;
+    margin: 50px auto 0;
+    overflow: hidden;
+}
+.slider-box ul{
+    display: flex;
+    padding: 0;
+    width: 400%;
+
+    animation: slide 20s infinite alternate ease-in-out;
+}
+.slider-box li{
+    width: 100%;
+    list-style: none;
+    position: relative;
+}
+.texto{
+    position:absolute;
+    text-align:center;
+    padding: 0 250px;
+    top: 250px;
+    color:#e2e2e2
+}
+.texto h2{
+    font-size: 60px;
+    margin-bottom: 4.5rem;
+}
+.texto p{
+    font-size: 30px;
+    margin-bottom:2.5rem ;
+}
+.slider-box img{
+    width: 100%;
+}
+
+@keyframes slide{
+    0%{margin-left: 0%;}
+    20%{margin-left: 0%;}
+
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+
+    75%{margin-left: -300%;}
+    100%{margin-left: -300%;}
+}
+.containerr{
+    max-width: center;
+    padding: 0 20px ;
+}
+.sevices-section{
+    display: flex;
+    justify-content: center;
+    padding: 50px 0 ;
+}
+.services-cards{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.service-cards-info{
+    max-width: 900px;
+
+}
+.service-cards-info h2{
+    font-size: 5rem;
+    font-weight: 900;
+    color: #e2e2e2;
+    margin-bottom: 1rem;
+    text-decoration: underline;
+}
+.service-cards-info p{
+    font-size: 2.5rem;
+    color: #e2e2e2;
+    margin-bottom: 1rem;
+}
+.services-cards-card{
+display: flex;
+justify-content: center;
+
+}
+.service-card{
+    max-width: 25%;
+    border: solid 1px var(#e2e2e2);
+    margin: 3rem 1rem ;
+    padding: 2rem 1rem;
+    border-radius: 5px;
+}
+.service-card:hover{
+    background-color: #3B1C32;
+}
+.service-card i{
+    font-size: 56px;
+    color: #A64D79;
+
+}
+.service-card h3{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #A64D79;
+}
+.service-card p{
+    font-size: 1.5rem;
+    color:#e2e2e2;
+    margin-top: 1rem;
+    text-align: center;
+}
+.service-card a{
+    margin-top: 2rem;
+text-decoration: none;
+color:black;
+background-color:#6A1E55;
+display: inline-block;
+padding: 1rem 3rem;
+text-transform: uppercase;
+border-radius: 3rem;
+}
+.service-card a:hover{
+    color: black;
+     transform: scale(1.3);
+    z-index: 2;
+    font-weight: 4rem;
+}
+.sectionn{
+    background-color: green;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.titulo-premium{
+    color: white;
+    text-align: center;
+    font-size: 3.5rem;
+    text-decoration: underline;
+}
+.service-card ul{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #e2e2e2;
+    text-align: center;
+    list-style-type: none;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+/* pagina de contactos*/
+
+.contactos{
+    background-color: #1A1A1D;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    color: #e2e2e2;
+}
+.contact-containerr{
+    max-width: 1500px;
+    margin: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:1.5rem;
+    background-color: #3B1C32;
+    box-shadow: 0 0 1rem hsla(0, 0%, 0%, 0.219);
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+.form-containerr{
+   padding: 10px;
+}
+.form-containerr h3{
+    font-size: 4rem;
+    font-weight: 600;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+.contact-form{
+    display: grid;
+    row-gap: 1rem;
+}
+.contact-form input,
+.contact-form textarea{
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: #e2e2e2;
+    padding: 10px;
+    font-size: 1rem;
+    color: black;
+    border-radius: 0.4rem;
+}
+.contact-form textarea{
+    resize: none;
+    height: 200px;
+}
+.contact-form .send-button{
+    border: none;
+    outline: none;
+    background-color:#6A1E55 ;
+    font-size: 1.3rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.contact-form .send-button:hover{
+    background-color:#A64D79 ;
+    transition: 0.3s all linear;
+}
+.maps iframe{
+    width: 100%;
+    height: 100%;
+}
+
+/* pagina nosotros*/
+.nosotros{
+    background-color: #3B1C32;
+}
+.titulo-nosotros{
+    background-color: #1A1A1D;
+    color:#e2e2e2;
+    text-align: center;
+    font-size: 4rem;
+    text-decoration: underline;
+}
+.timeline-section{
+    background-color: #1A1A1D;
+    min-height: 100vh;
+    padding: 100px 15px;
+}
+.timeline-items{
+    max-width: 1000px;
+    margin: auto;
+    display:flex ;
+    flex-wrap: wrap;
+    position: relative;
+}
+.timeline-items::before{
+    content:"";
+    position: absolute;
+    width: 4px;
+    height: 100%;
+    background-color: #9c9c9c;
+    left: calc(50% - 1px);
+}
+.timeline-item{
+    margin-bottom: 40px;
+    width: 100%;
+    position:relative ;
+}
+.timeline-item:last-child{
+    margin-bottom: 0;
+}
+.timeline-item:nth-child(odd){
+    padding-right:calc(50% + 30px) ;
+    text-align: right;
+}
+.timeline-item:nth-child(even){
+     padding-left:calc(50% + 30px) ;
+}
+.timeline-dot{
+    height: 16px;
+    width: 16px;
+    background-color: #A64D79;
+    position: absolute;
+    left: calc(50% - 8px);
+    border-radius: 50%;
+    top: 10px;
+}
+.timeline-date{
+    font-size: 2rem ;
+    color: #e2e2e2;
+    margin: 6px 0 15px;
+}
+.timeline-content{
+    background-color: #3B1C32;
+    padding: 30px;
+    border-radius: 5px;
+}
+.timeline-content h3{
+font-size: 2rem;
+color: #e2e2e2;
+margin: 0 0 10px;
+text-transform: capitalize;
+font-weight: 500;
+}
+.timeline-content p{
+ color: #9c9c9c;
+ font-size: 1.5rem;
+ font-weight: 300;
+ line-height: 2rem;
+}
+.fondo-color{
+    background-color: #1A1A1D;
+}
+
 
  /* tablet - 768px*/
  @media (max-width: 768px){
@@ -781,5 +1118,64 @@ html{
 }
 .content p{
     font-size: 2rem;
+}
+/*servicios*/
+.servicios{
+    padding: 10px;
+}
+.slider-box{
+    width: 100%;
+}
+.texto{
+    top: 50px;
+    padding: 0 25px;
+}
+.texto h2{
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+.texto p{
+    font-size: 15px;
+}
+
+
+.services-cards-card{
+    flex-direction: column;
+    align-items: center;
+    max-width: auto;
+}
+.service-card{
+    max-width: 100%;
+    margin: 1rem ;
+
+}
+
+/* pagina contactos */
+
+.contact-containerr{
+    margin: 0 auto;
+    width: 90%;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+.maps iframe{
+    height: 400px;
+}
+
+/*pagina nosotros*/
+
+.timeline-items::before{
+    left: 7px;
+}
+.timeline-item:nth-child(odd){
+    padding-right: 0;
+    text-align: left;
+}
+.timeline-item:nth-child(odd),
+.timeline-item:nth-child(even){
+    padding-left: 37px;
+}
+.timeline-dot{
+    left: 0;
 }
 }

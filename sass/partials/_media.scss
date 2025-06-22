@@ -1,0 +1,129 @@
+@media only screen and (max-width: 468px){
+    html{
+    font-size: 42.5% ;
+    
+    .content-banner{
+    max-width: 50rem;
+    padding: 22rem 0;
+
+    .heading-1{
+    font-size: 2.8rem;
+
+    .card-feature{
+    flex-direction: column;
+    border-radius: 2rem;
+
+    .feature-content{
+    align-items: center;
+
+    .feature-content p{
+    font-size: 1.4rem;
+    text-align: center;
+
+    .feature-content span{
+    font-size: 1.6rem;
+    text-align: center;
+}
+}
+}
+}
+}
+}
+}
+.container-opcions span{
+    font-size: 1.8rem;
+    padding: 1rem 1.5rem;
+    font-weight: 500;
+
+    .container-products{
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 1rem;
+
+    .container-img .discount{
+    font-size: 2rem;
+
+    .content-card-product h3{
+    font-size: 2.2rem;
+
+
+}
+}
+}
+}
+
+.gallery{
+    grid-template-rows: repeat(2, 20rem);
+}
+.contact-info ul,
+.information ul,
+.my-account ul{
+    display: none;
+
+    .contact-info{
+    align-items: center;
+}
+}
+
+ .menu-footer{
+    grid-template-columns: 1fr;
+
+    .content p{
+    font-size: 2rem;
+    }
+}
+}
+
+// servicios
+
+.servicios{
+    padding: 10px;
+
+    .slider-box{
+    width: 100%;
+
+    .texto{
+    top: 50px;
+    padding: 0 25px;
+
+    .texto h2{
+    font-size: 35px;
+    margin-bottom: 15px;
+.texto p{
+    font-size: 15px;
+}
+
+}
+}
+}
+
+}
+
+// pagina contactos
+
+.contact-containerr{
+    margin: 0 auto;
+    width: 90%;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+
+    .maps iframe{
+    height: 400px;
+}
+}
+
+// pagina nosotros
+
+.timeline-items::before{
+    left: 7px;
+}
+.timeline-item:nth-child(odd){
+    padding-right: 0;
+    text-align: left;
+}
+.timeline-item:nth-child(odd),
+.timeline-item:nth-child(even){
+    padding-left: 37px;
+}
+.timeline-dot{
+    left: 0;
+}

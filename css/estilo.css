@@ -971,4 +971,111 @@ html * {
   background-color: #1A1A1D;
 }
 
+@media only screen and (max-width: 468px) {
+  html {
+    font-size: 42.5%;
+  }
+  html .content-banner {
+    max-width: 50rem;
+    padding: 22rem 0;
+  }
+  html .content-banner .heading-1 {
+    font-size: 2.8rem;
+  }
+  html .content-banner .heading-1 .card-feature {
+    flex-direction: column;
+    border-radius: 2rem;
+  }
+  html .content-banner .heading-1 .card-feature .feature-content {
+    align-items: center;
+  }
+  html .content-banner .heading-1 .card-feature .feature-content .feature-content p {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+  html .content-banner .heading-1 .card-feature .feature-content .feature-content p .feature-content span {
+    font-size: 1.6rem;
+    text-align: center;
+  }
+  .container-opcions span {
+    font-size: 1.8rem;
+    padding: 1rem 1.5rem;
+    font-weight: 500;
+  }
+  .container-opcions span .container-products {
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 1rem;
+  }
+  .container-opcions span .container-products .container-img .discount {
+    font-size: 2rem;
+  }
+  .container-opcions span .container-products .container-img .discount .content-card-product h3 {
+    font-size: 2.2rem;
+  }
+  .gallery {
+    grid-template-rows: repeat(2, 20rem);
+  }
+  .contact-info ul,
+  .information ul,
+  .my-account ul {
+    display: none;
+  }
+  .contact-info ul .contact-info,
+  .information ul .contact-info,
+  .my-account ul .contact-info {
+    align-items: center;
+  }
+  .menu-footer {
+    grid-template-columns: 1fr;
+  }
+  .menu-footer .content p {
+    font-size: 2rem;
+  }
+}
+.servicios {
+  padding: 10px;
+}
+.servicios .slider-box {
+  width: 100%;
+}
+.servicios .slider-box .texto {
+  top: 50px;
+  padding: 0 25px;
+}
+.servicios .slider-box .texto .texto h2 {
+  font-size: 35px;
+  margin-bottom: 15px;
+}
+.servicios .slider-box .texto .texto h2 .texto p {
+  font-size: 15px;
+}
+
+.contact-containerr {
+  margin: 0 auto;
+  width: 90%;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+.contact-containerr .maps iframe {
+  height: 400px;
+}
+
+.timeline-items::before {
+  left: 7px;
+}
+
+.timeline-item:nth-child(odd) {
+  padding-right: 0;
+  text-align: left;
+}
+
+.timeline-item:nth-child(odd),
+.timeline-item:nth-child(even) {
+  padding-left: 37px;
+}
+
+.timeline-dot {
+  left: 0;
+}
+
 /*# sourceMappingURL=estilo.css.map */

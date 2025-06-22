@@ -1,0 +1,168 @@
+.servicios{
+    background-color: #1A1A1D;
+
+    .titulo-servicios{
+    text-align: center;
+    color: #e2e2e2;
+    text-decoration: underline;
+    font-size: 7rem;
+}
+.slider-box{
+    width: 1280px;
+    height: auto;
+    margin: 50px auto 0;
+    overflow: hidden;
+}
+.slider-box ul{
+    display: flex;
+    padding: 0;
+    width: 400%;
+
+    animation: slide 20s infinite alternate ease-in-out;
+}
+.slider-box li{
+    width: 100%;
+    list-style: none;
+    position: relative;
+}
+.texto{
+    position:absolute;
+    text-align:center;
+    padding: 0 250px;
+    top: 250px;
+    color:#e2e2e2
+}
+.texto h2{
+    font-size: 60px;
+    margin-bottom: 4.5rem;
+}
+.texto p{
+    font-size: 30px;
+    margin-bottom:2.5rem ;
+}
+.slider-box img{
+    width: 100%;
+}
+
+@keyframes slide{
+    0%{margin-left: 0%;}
+    20%{margin-left: 0%;}
+
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+
+    75%{margin-left: -300%;}
+    100%{margin-left: -300%;}
+}
+}
+
+.containerr{
+    max-width: center;
+    padding: 0 20px ;
+
+    .sevices-section{
+    display: flex;
+    justify-content: center;
+    padding: 50px 0 ;
+}
+
+}
+.services-cards{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .service-cards-info{
+    max-width: 900px;
+
+}
+.service-cards-info h2{
+    font-size: 5rem;
+    font-weight: 900;
+    color: #e2e2e2;
+    margin-bottom: 1rem;
+    text-decoration: underline;
+}
+.service-cards-info p{
+    font-size: 2.5rem;
+    color: #e2e2e2;
+    margin-bottom: 1rem;
+}
+.service-cards-info p{
+    font-size: 2.5rem;
+    color: #e2e2e2;
+    margin-bottom: 1rem;
+}
+.services-cards-card{
+display: flex;
+justify-content: center;
+
+}
+.service-card{
+    max-width: 25%;
+    border: solid 1px var(#e2e2e2);
+    margin: 3rem 1rem ;
+    padding: 2rem 1rem;
+    border-radius: 5px;
+}
+.service-card:hover{
+    background-color: #3B1C32;
+}
+.service-card i{
+    font-size: 56px;
+    color: #A64D79;
+
+}
+.service-card h3{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #A64D79;
+}
+.service-card p{
+    font-size: 1.5rem;
+    color:#e2e2e2;
+    margin-top: 1rem;
+    text-align: center;
+}
+.service-card a{
+    margin-top: 2rem;
+text-decoration: none;
+color:black;
+background-color:#6A1E55;
+display: inline-block;
+padding: 1rem 3rem;
+text-transform: uppercase;
+border-radius: 3rem;
+}
+.service-card a:hover{
+    color: black;
+     transform: scale(1.3);
+    z-index: 2;
+    font-weight: 4rem;
+}
+.sectionn{
+    background-color: green;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+}
+.titulo-premium{
+    color: white;
+    text-align: center;
+    font-size: 3.5rem;
+    text-decoration: underline;
+}
+.service-card ul{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #e2e2e2;
+    text-align: center;
+    list-style-type: none;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
